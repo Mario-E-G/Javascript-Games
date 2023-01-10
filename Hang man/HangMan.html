@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hang Man</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>  body{
+    background-color: #0E3386;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="Hang">
+        <svg width="400" height="400">
+          <rect x="50" y="100" width="200" height="20" id="num2"></rect>
+          <rect x="50" y="100" width="30" height="200" id="num1"></rect>
+          <rect x="250" y="100" width="20" height="70" id="num3"></rect>
+          <circle
+            cx="260"
+            cy="180"
+            r="30"
+            stroke="black"
+            fill="white"
+            id="num4"
+          ></circle>
+          <rect x="255" y="209" width="8" height="70" id="num5"></rect>
+          <line
+            id="num6"
+            x1="260"
+            y1="220"
+            x2="288"
+            y2="255"
+            style="stroke: black; stroke-width: 5px"
+          ></line>
+          <line
+            id="num7"
+            x1="260"
+            y1="220"
+            x2="230"
+            y2="255"
+            style="stroke: black; stroke-width: 5px"
+          ></line>
+          <line
+            id="num8"
+            x1="260"
+            y1="275"
+            x2="288"
+            y2="305"
+            style="stroke: black; stroke-width: 5px"
+          ></line>
+          <line
+            id="num9"
+            x1="260"
+            y1="275"
+            x2="230"
+            y2="305"
+            style="stroke: black; stroke-width: 5px"
+          ></line>
+        </svg>
+      </div>
+      <div id="wronginput"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="Word"></div>
+    <div id="reset">
+      <button onclick="Reset()" class="btn btn-primary">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
