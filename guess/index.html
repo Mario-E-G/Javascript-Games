@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../imgs/gift.jpeg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +14,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="  background-color: rgb(177, 255, 255);">
+  <body style="background-color: rgb(177, 255, 255)">
     <div class="container" aria-disabled="true">
       <div class="row">
         <div class="col-12">
@@ -28,19 +29,20 @@
 
       <div class="row">
         <div class="col-12">
-        <progress id="progressBar" value="0"></progress><br>
-          <button class="btn btn-outline-primary my-3" onclick="DisplayBoxes()">GO</button>
+          <progress id="progressBar" value="0"></progress><br />
+          <button class="btn btn-outline-primary my-3" onclick="DisplayBoxes()">
+            GO
+          </button>
         </div>
       </div>
 
       <div class="row">
         <div class="col-12">
-          <div id="boxContainer" ></div>
+          <div id="boxContainer"></div>
         </div>
       </div>
     </div>
     <div id="hidden"></div>
-
 
     <script src="./scrupt.js"></script>
   </body>
