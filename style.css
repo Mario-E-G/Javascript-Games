@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
   font-family: cursive;
-
-  /* background-color: cornflowerblue; */
 }
-.container {
-  /* background-color: cornflowerblue; */
+nav #logo{
+  width: 100%;
+  border-radius: 10px;
 }
 .row {
   justify-content: center;
@@ -19,14 +18,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 #Teamname {
-  margin: 10px 0px 60px 10px;
+  margin: 10px 0px 10px 10px;
   text-align: center;
-  background-color: chocolate;
   padding: 20px;
-  /* font-size: larger; */
   font-weight: bold;
+  width: 9%;
   font-family: cursive;
 }
 .col div {
@@ -48,7 +47,7 @@ main {
 }
 .largeDiv {
   width: 100%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 .largeDivImg {
   width: 100%;
@@ -71,7 +70,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: burlywood;
+  background-color: black;
 }
 
 #menu ul {
@@ -82,16 +81,20 @@ main {
 
 #menu ul li {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 10px 20px;
   list-style-type: none;
-  margin: 20px;
-  background-color: aqua;
+  margin: 10px;
+  background-color:tomato;
   border-radius: 10px;
   cursor: pointer;
 }
 #home {
-  height: 600px;
+  height: 730px;
+  margin-bottom: 60px;
+  background: no-repeat url("./imgs/15457.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 #menu ul a {
@@ -103,4 +106,19 @@ main {
 
 #menu ul a:hover {
   text-decoration: underline;
+}
+#contact-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+.card img{
+  height: 350px;
 }
