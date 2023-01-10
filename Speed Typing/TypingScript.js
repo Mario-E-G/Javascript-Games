@@ -3,7 +3,7 @@ var P_input = document.getElementById('PlayerInput');
 var scre = document.getElementById('score');
 var timer = document.getElementById('timer')
 var score = 0 ;
-var time = 1;
+var time = 10;
 var gameUp = document.getElementById('gameUp')
 
 var timeInterval = setInterval(timerUpdate, 850);
