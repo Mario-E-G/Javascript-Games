@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  background-color: darkseagreen;
+}
+main {
+  background-color: darkseagreen;
+}
+.row {
+  align-items: center;
+}
+#countDown-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#countDown {
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 50px;
+}
+#countDownContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#text p {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#colored-start {
+  /* background-color: blueviolet; */
+  width: 167px;
+  height: 200px;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#timer {
+  opacity: 0;
+  font-weight: bold;
+  font-size: 50px;
+}
+#timer #seconds,
+#tens {
+  opacity: 0;
+  font-weight: bold;
+  font-size: 50px;
+}

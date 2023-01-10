@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: bisque; */
+}
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  top: 70px;
+  align-items: center;
+}
+#numberOfBoxes {
+  margin: auto;
+}
+#boxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#newContiner{
+  display: flex;
+}
