@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="TypingStyle.css" />
+    <link rel="icon" href="typee.ico" crossorigin />
+  </head>
+  <body id="body" onload="addWord()">
+    <img id="background" src="wp2221410-letters-wallpapers.jpg" alt="" />
+    <div id="bigDiv">
+      <div id="gameComp">
+        <h1 id="wordHolder"></h1>
+        <p id="score">Score: 0</p>
+        <p id="timer">Time:</p>
+        <input
+          onkeyup="check()"
+          type="text"
+          id="PlayerInput"
+          placeholder="Type The Word Here!"
+        />
+      </div>
+      <div id="gameUp"></div>
+    </div>
+
+    <script src="TypingScript.js"></script>
+  </body>
+</html>

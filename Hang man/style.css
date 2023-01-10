@@ -95,7 +95,7 @@
   display: flex;
   justify-content: center;
 }
-#container {
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;

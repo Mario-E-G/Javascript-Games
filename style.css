@@ -54,7 +54,9 @@ main {
   height: 310px;
 }
 .largeDiv h4 {
+  background-color: rgb(0, 88, 165);
   padding: 10px;
+  color: #fff;
 }
 .column {
   margin-bottom: 30px;
