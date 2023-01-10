@@ -1,0 +1,39 @@
+/* cells style */
+.cells {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+  margin-left: 4px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* position: relative;
+    left: 450px;
+    top: 70px; */
+}
+#Bingo {
+  /* text-align: center; */
+  color: black;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+#position {
+  margin-left: 450px;
+}
+.word {
+  /* display: inline-block; */
+  cursor: pointer;
+}
+.clear {
+  clear: both;
+  /* text-decoration:none ;  */
+}
+#res{
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
