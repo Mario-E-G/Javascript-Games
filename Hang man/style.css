@@ -1,0 +1,103 @@
+/* page index */
+.chooseMode {
+  width: 660px;
+  height: 500px;
+  /* display: inline; */
+  margin: 2px;
+  background-color:#318CE7;
+  float: left;
+  color: black;
+  text-align: center;
+  font-size: 200px;
+}
+.Mode {
+  color: black;
+}
+
+[class^="chooseMode"] p {
+  font-size: 50px;
+}
+
+/* Game page */
+#Hang {
+  /* background-color: red; */
+  /* float: left; */
+  /* width: 550px; */
+  /* height: 400px; */
+  color: black;
+}
+#wronginput {
+  /* background-color: black; */
+  /* width: 450px; */
+  /* height: 400px; */
+  /* float: right; */
+  /* margin-left: 30px; */
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#wronginput div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Word {
+  /* background-color: aqua; */
+  /* width: 1350px; */
+  /* height: 250px; */
+  margin-top: 4px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/* #righArm{
+    transform: translate(20px,10px);
+    transform: rotateZ(4deg);
+} */
+
+/* .clear{
+  clear: both;
+} */
+
+#num1 {
+  display: none;
+}
+#num2 {
+  display: none;
+}
+#num3 {
+  display: none;
+}
+#num4 {
+  display: none;
+}
+#num5 {
+  display: none;
+}
+#num6 {
+  display: none;
+}
+#num7 {
+  display: none;
+}
+#num8 {
+  display: none;
+}
+#num9 {
+  display: none;
+}
+#reset {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0E3386;
+}
