@@ -1,6 +1,6 @@
 var counter = 0; 
-var text = ["ابن", "النفيس", "أحد","العلماء", "المهمين", "في","عدة", "مجالات", "فقد",
-"كان", "عالما", "وطبيا","ويعتبر", "أحد", "اشهر ","الفقهاء", "كما", "انه","عالم","في ", "وظائف" , "الجسم", "ولد","في ","بلدة", "القرش"];
+var text = [" ","ابن", "النفيس", "أحد","العلماء", "المهمين", "في","عدة", "مجالات", "فقد",
+"كان", "عالما", "وطبيبا","ويعتبر", "أحد", "اشهر ","الفقهاء", "كما", "انه","عالم","في ", "وظائف" , "الجسم", "ولد","في ","بلدة", "القرش"];
 var elem = document.getElementById("word");
 var div1=document.getElementById("one");
 var div11=document.getElementById("eleven");
@@ -11,7 +11,6 @@ setTimeout(function(){
 document.getElementById("one").style.display ="none"; 
 }, 1000);
 
-console.log(text.length);
 
 var inst = setInterval(change, 1000);
 function change() {
@@ -33,7 +32,7 @@ div1.style.display="none";
 div11.style.display = "block"; 
 }, 2000);
 
-export function changeColor(el) {
+ function changeColor(el) {
   
   if (el.id === 'btn1') {
     el.style.backgroundColor = 'green';
