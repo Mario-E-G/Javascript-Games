@@ -12,11 +12,13 @@ document.getElementById("one").style.display ="none";
 }, 2000);
 
 
-var inst = setInterval(change,1000);
+console.log(text.length);
+var inst = setInterval(change, 1000);
 function change() {
-elem.innerHTML = text[counter];
-counter++;
-if (counter >= text.length) {
+console.log(counter);
+elem.innerHTML = text[counter++];
+if (counter > text.length) {
+console.log(counter);
 counter = 0;
 console.log(elem);
 document.getElementById("eleven").style.display = "none"; 
@@ -24,6 +26,7 @@ document.getElementById("quest").style.display = "block";
 clearInterval(inst); 
 }
 } 
+
 
 
 div11.style.display = "none"; 

@@ -1,6 +1,6 @@
 var counter = 0; 
-var text = [" ","ابن", "النفيس", "اول","من", "اكتشف", "الدورة","الدموية", "الصغري", "واثبت",
-"انه", "الرئتين", "هي","المسؤؤلة", "عن", "تنقية","الدم", "كما", "انه","اكتشف","الدورة", "الدموية" , "الكبري", "وجدت","مخطوطة","بعد", "وفاته","وثق", "فيها","اكتشافه","للدورة", "الدموية","الدورة", "الدموية" , "الكبري", "كما","انه","وضع", "نطرية","باهرة", "في","الرؤية","والابصار"];
+var text = ["","ابن", "النفيس", "اول","من", "اكتشف", "الدورة","الدموية", "الصغري", "واثبت",
+"انه", "الرئتين", "هي","المسؤؤلة", "عن", "تنقية","الدم", "كما", "انه","اكتشف","الدورة", "الدموية" , "الكبري", "وجدت","مخطوطة","بعد", "وفاته","وثق", "فيها","اكتشافه","للدورة", "الدموية" , "الكبري", "كما","انه","وضع", "نطرية","باهرة", "في","الرؤية","والابصار"];
 var elem = document.getElementById("word");
 var div1=document.getElementById("one");
 var div11=document.getElementById("eleven");
@@ -15,9 +15,10 @@ document.getElementById("one").style.display ="none";
 console.log(text.length);
 var inst = setInterval(change, 1000);
 function change() {
-elem.innerHTML = text[counter];
-counter++;
-if (counter >= text.length) {
+console.log(counter);
+elem.innerHTML = text[counter++];
+if (counter > text.length) {
+console.log(counter);
 counter = 0;
 console.log(elem);
 document.getElementById("eleven").style.display = "none"; 

@@ -1,5 +1,5 @@
 var counter = 0; 
-var text = [" ","ابن", "النفيس", "أحد","العلماء", "المهمين", "في","عدة", "مجالات", "فقد",
+var text = ["","ابن", "النفيس", "أحد","العلماء", "المهمين", "في","عدة", "مجالات", "فقد",
 "كان", "عالما", "وطبيبا","ويعتبر", "أحد", "اشهر ","الفقهاء", "كما", "انه","عالم","في ", "وظائف" , "الجسم", "ولد","في ","بلدة", "القرش"];
 var elem = document.getElementById("word");
 var div1=document.getElementById("one");
@@ -12,11 +12,12 @@ document.getElementById("one").style.display ="none";
 }, 1000);
 
 
+console.log(text.length);
 var inst = setInterval(change, 1000);
 function change() {
-elem.innerHTML = text[counter];
-counter++;
-if (counter >= text.length) {
+elem.innerHTML = text[counter++];
+if (counter > text.length) {
+console.log(counter);
 counter = 0;
 console.log(elem);
 document.getElementById("eleven").style.display = "none"; 
@@ -24,6 +25,7 @@ document.getElementById("quest").style.display = "block";
 clearInterval(inst); 
 }
 } 
+
 
 
 div11.style.display = "none"; 
